@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    width: 100vw;
+    height: 100vh;
+    font-size: 16px;
+    color: white;
+}
+body{
+    background:linear-gradient(rgb(17,17,17, 0.2), rgb(20, 20, 20)),url(imagens/51UnsmLrN1L._AC_SX522_.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+.header{
+    height: 8vh;
+    background-color: rgba(47, 104, 131, 0.363);
+    width: 100%;
+}
+.alin-items{
+    text-transform: uppercase;
+    justify-content: space-around;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.list{
+    justify-content: space-around;
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    font-size: 12px;
+}
+.list a{
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+.principal{
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    
+}
+main{
+    height: 92vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12%;
+  
+}
+.firt{
+    width: 890px;
+    font-family:'Times New Roman', Times, serif;
+    
+    display:flex;
+    color: rgba(228, 237, 242, 0.997);
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.second{
+    justify-content: center;
+    text-align: center;
+    color: rgb(174, 212, 255);
+    font-size: 16px;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor:pointer;
+    
+   
+}
+
+.bt{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+   
+    
+}
+.bt button{
+    border-radius:  60px ;
+    height: 30px;
+    width: 20%;
+    cursor:pointer;
+    border: 2px solid rgb(95, 230, 227);
+    color: white;
+    text-transform:lowercase;
+    background-color: transparent;
+    font-weight:normal;
+    
+}
+
+.bt button:hover{
+    width: 30%;
+    height: 60px;
+    border-radius: 60px;
+    color: rgb(56, 227, 178);
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.list :hover{
+    border-radius: 60px;
+    width: 60px;
+    height: 10px;
+    color: rgb(0, 255, 81);
+}
