@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+:root{
+    --cor-principal:white;
+    --header-color:black;
+    --header-cor1:whitesmoke;
+}
+
+
+header{
+    min-height: 100px;
+    background-color: var(--header-color);
+    color: var(--header-cor1);
+    text-align: center;
+   
+    
+}
+
+header h1{
+    
+    font-size: 10vh;
+    font-weight: bold;
+    padding-top: 50px;
+    
+    width: auto;
+}
+header h1{
+    font-size: 5em;
+    display: block;
+ }
+
+header p{
+    padding-bottom: 50px;
+    padding-top: 0px;
+}
