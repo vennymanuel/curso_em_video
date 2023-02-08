@@ -1,35 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>about billie eilish</title>
+    <style>
+        
+        #principal-about{
+            margin-left: 20px;
+            width: 380px;
+            display: inline-block;
+            box-shadow: 0px 0px 10px rgb(15, 14, 14),0px 0px 10px rgb(15, 14, 14);
+            height: auto;
+            margin-top: 16px;
+            background-image:linear-gradient(to right, rgba(95, 93, 93, 0.342), rgba(56, 55, 55, 0.613) ) ;
+            padding: 8px;
+            font-size: 1.3em;
+            line-height: 1.9em;
+            padding: 10px;
+            color: rgb(255, 255, 255);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>.about <span>billie eilish</span>.</h1>
         <nav>
             
-            <a href="">home</a>
+            <a href="#more">home</a>
             <a href="">videos</a>
             <a href="">images</a>
             <a href="">news</a>
             <a href="">events</a>
+
         </nav>
         <img src="fotos/icons/menu_FILL0_wght400_GRAD0_opsz48.png" alt="menu">
     </header>
     
-    <main>
-        <article class="story">
-            <h1 class="principal">billie eilish</h1>
-            <p>American singer-songwriter</p>
+    <main id="principal">
+        <section class="buttons">
+
+            <span>
+                <button id="Billie-about">about</button>
+                <button id="Billie-songs">Songs</button>
+                <button id="billie-phottos">phottos</button>
+            </span>
+
+        </section>
+
+        <section class="relative">
+            <div class="relative-about-1">
+    
+                <article class="relative-about">
+    
+                    <article class="story">
+                        <h1 class="principal">billie eilish</h1>
+                        <p>American singer-songwriter</p>
+    
+    
+                    </article>
+    
+                
+                    <section id="principal-about">
+                        Billie Eilish Pirate Baird O'Connell nasceu em 18 de dezembro de 2001, em Los Angeles, Estados Unidos. Filha de atores, é irmã mais nova de Finneas O'Connell, quem considera seu melhor amigo... <a href="#more" >more...</a>
+        
+                    </section>
+                 
+    
+                </article>
+            </div>
+
+            <article class="relative-songs">
+                <h3>here we have some billie's songs </h3>
+                <ul>
+                    <li><a href="music/billie_eilish_bored_lyrics_mp3_40171.mp3"> <audio src="music/billie_eilish_bored_lyrics_mp3_40171.mp3"></audio>Billie Eilish bored_lyrics</a></li>
+
+                    <li><a href="music/billie_eilish_everything_i_wanted_lyrics_mp3_84390.mp3"><audio src="music/billie_eilish_everything_i_wanted_lyrics"></audio>Billie Eilish everything_i_wanted_lyrics_mp3</a></li>
+
+                    <li><a href="music/billie_eilish_i_love_you_lyrics_mp3_38802.mp3"><audio src="music/billie_eilish_i_love_you_lyrics_mp3_38802.mp3"></audio>Billie        Eilish_i_love_you_lyrics</a></li>
+
+                    <li><a href="music/billie_eilish_male_fantasy_official_lyric_video_mp3_5951.mp3"><audio src="music/billie_eilish_male_fantasy_official_lyric_video_mp3_5951.mp3"></audio>Billie Eilish male_fantasy_official_lyric</a></li>
+
+                    <li><a href="music/billie_eilish_my_strange_addiction_lyrics_mp3_39098.mp3"></a><audio src="music/billie_eilish_my_strange_addiction_lyrics_mp3_39098.mp3">Billie Eilish my_strange_addiction_lyrics</audio></li>
+
+                    <li><a href="music/billie_eilish_the_30th_official_lyric_video_mp3_4960.mp3"></a><audio src="music/billie_eilish_the_30th_official_lyric_video_mp3_4960.mp3">billie_eilish_the_30th_official_lyric</audio></li>
+                </ul>
+
+              
+
+            </article>
+       
+
+            <div id="contenier">
+                <article class="relative-phottos">
+                    <div class="phottos">
+                        <img src="fotos/Billie Eilish_352836.png" id="img1" onclick="display()">
+                        <img src="fotos/Billie Eilish_374609.png" alt=""    onclick="display2()">
+                
+                        <img src="fotos/Billie Eilish_374618.png" alt="">
+                        <img src="fotos/1656239818677.jpg" alt="">
+                        <img src="fotos/billieeilish-12032022-0001.jpg" alt="">
+                    </div>
+                
+                    <P>
+                        here you will found some the phottos
+                    </P>
+                </article>
+                <article class="phottos-side1">
+                    <div class="phottos-side">
+                        <h1>Click on the photto for you see it in full width.</h1>
+                    </div>
+                </article>
+            </div>
+
+        </section>
 
        
-        </article>
 
+      <section id="story-about">
+        <h1 id="more"> About Billie Eilish</h1>
+        <div class="contener-refct">
+            <article class="about-story" >
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nam consequatur earum nisi placeat? Sed, tempora sint eius reiciendis minima numquam quisquam, totam voluptas fugit repellendus incidunt sit neque veritatis?
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi consectetur vero, laboriosam necessitatibus eius quia vel beatae, earum et quidem doloribus aperiam voluptas, in consequatur a ea modi accusantium rem!</p>
+            </article>
+            <article>
+               <div id="img-billie">
+
+               </div>
+            </article>
+        </div>
+      </section>
     </main>
-
+    <script src="billie.js"></script>
 </body>
 </html>

@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#calc{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.913);
+    height: auto;
+    width: 260px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 40px;
+    text-align: center;
+    
+}
+#display{
+    padding: 6px;
+    width: 90%;
+    height: 140px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    background-color: rgba(0, 0, 0, 0.808);
+    font-size: 2em;
+    text-align: right;
+    padding-right: 14px;
+}
+#principal{
+    background-color: rgba(49, 47, 47, 0.956);
+    margin-top: 4px;
+    width: 96%;
+    margin: auto;
+   
+}
+input{
+    color: white;
+}
+#destack input{
+    width: 52px;
+    height: 40px;
+    font-size: 1.3em;
+    margin-left: 4px;
+    margin-top: 6px;
+    
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+.otros-numeros input{
+    width: 52px;
+    height: 40px;
+    font-size: 1.3em;
+    margin-left: 4px;
+    margin-top: 6px;
+    
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+   
+}
+#principal input:hover{
+   background-color: gray;
+   border-radius: 10px;
+}
+
+#igual{
+    height: 70px;
+    width: 40px;
+    background-color: rgb(30, 84, 220);
+    margin-top: -20px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+.blue{
+    color: rgb(26, 87, 192);
+}
+.outro{
+    text-align: left;
+    margin-left: 6px;
+}

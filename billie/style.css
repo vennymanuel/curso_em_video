@@ -5,13 +5,20 @@
 *{
     margin: 0px;
     padding: 0px;
+   
 }
-
+body{
+    background-color: rgba(16, 16, 16, 0.701);
+}
 header {
     background-color: rgba(166, 10, 106, 0.97);
     display: flex;
     justify-content: space-around;
     text-transform: capitalize;
+    
+    position: fixed;
+    top: -1px;
+    width: 100%;
    
     
 }
@@ -20,9 +27,10 @@ header{
 }
 header{
     padding-right: 20px;
-    
+    box-shadow: 0px 4px rgba(81, 79, 79, 0.492);
 
 }
+
 header h1{
     margin-top: 8px;
     font-family: 'intro';
@@ -30,7 +38,7 @@ header h1{
     margin-left: 80px;
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.247);
     cursor: pointer;
-    
+   
 }
 header h1 span{
     color: gray;
@@ -42,7 +50,7 @@ header img{
 }
 nav{
     margin-top: 26px;
-    
+    margin-right: 40px;
 }
 
 nav a{
@@ -61,16 +69,15 @@ nav a:hover{
 }
 
 main{
+    margin-top: 40px;
     color: white;
     height: 100vh;
-    background-color: rgb(39, 37, 39);
-
+    background-color: rgba(0, 0, 0, 0.849);
     background-image:linear-gradient(to right, rgb(0, 0, 0),transparent,rgb(0, 0, 0) ),url('fotos/wp4753943.jpg');
     background-repeat: no-repeat;
-    background-position: center center;
     background-size: cover;
-    background-attachment: fixed;
    
+    background-attachment: fixed;
 }
 main .principal{
     padding-top: 20px;
@@ -78,6 +85,185 @@ main .principal{
     font-weight: 800;
     text-indent: 30px;
     text-transform: capitalize;
+   
     
     
+}
+
+span button{
+    cursor: pointer;
+    width: 60px;
+    height: 26px;
+    border-radius: 40px;
+    color: white;
+    border: none;
+    margin-top: 40px;
+    margin-left: 50px;
+    background-image: linear-gradient(to bottom,rgb(212, 17, 209), rgb(156, 142, 152));
+
+}
+span button:hover{
+    box-shadow: 0px 0px 4px white,0px 0px 6px rgb(156, 14, 226);
+   transform: scale(1.1);
+}
+.relative-songs{
+    display: none;
+    width: 330px;
+    margin-left: 22px;
+    height: 400px;
+    margin-top: 10px;
+    color: white;
+    box-shadow: 0px 0px 10px black;
+    margin-top: 10px;
+    background-color: rgba(24, 24, 24, 0.314);
+}
+.relative-phottos{
+    display: none;
+    width: 270px;
+  
+    height: 380px;
+    color: white;
+    margin-top: 10px;
+    box-shadow: 0px 0px 10px black;
+    margin-left: 60px;
+    border-radius: 5px;
+}
+.display-block{
+    display: block;
+}
+.display-none{
+    display: none;
+}
+.phottos{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 360px;
+    display: flex;
+    overflow-x: auto;
+   
+ 
+   cursor: pointer;
+}
+img{
+    box-shadow: 0px 0px 10px rgb(34, 33, 33);
+    border-radius: 8px;
+}
+
+.imgFndo{
+    background-image: url('fotos/Billie Eilish_352836.png');
+    background-repeat: no-repeat;
+   
+}
+.imgFndo1{
+    background-image:linear-gradient(to right, rgba(13, 13, 13, 0.695), transparent,rgba(0, 0, 0, 0.662)), url('fotos/Billie Eilish_374609.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+   
+   
+}
+
+.relative-phottos p{
+    color: rgb(212, 17, 209);
+    text-transform: capitalize;
+    text-align: center;
+}
+.relative-about p{
+    margin-left: 46px;
+    width: 300px;
+    
+    text-align: justify;
+    background-color: rgb(62, 116, 98);
+}
+
+.relative-about h1{
+    margin-left: 88px;
+}
+.phottos-side1{
+    color: rgb(173, 17, 157);
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 1.5em;
+    display: inline-block;
+
+    text-shadow: 0px 0px 2px black;
+
+}
+
+#contenier{
+    display: flex;
+    justify-content: space-between;
+    transition: 4s;
+}
+.phottos-side{
+    display: none;
+    transition: 14s;
+}
+ul li a{
+    text-decoration: none;
+    margin-top: 20px;
+}
+ul{
+    list-style: none;
+    text-align: justify;
+    margin-left: 20px;
+   
+}
+
+
+#story-about{
+   
+    
+    background-color: rgb(38, 36, 36);
+    margin-top: 80px;
+    height: 90vh;
+    text-align: justify;
+    color: white;
+ 
+  
+}
+.contener-refct img{
+    width:310px;
+    height: 360px;
+    
+
+
+   
+}
+
+.about-story{
+    width: 600px;
+    line-height: 2.2em;
+    margin-top: 20px;
+    font-size: 1.2em;
+    transition: 3s;
+}
+.contener-refct{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#more{
+    margin-left:40px ;
+    padding: 4px;
+    font-size: 2em;
+    font-variant: small-caps;
+}
+#img-billie {
+    background-image: url('fotos/billieeilish-12032022-0001.jpg');
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 340px;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+#img-billie:hover{
+    box-shadow: 0px 0px 6px rgba(209, 206, 206, 0.863);
+  
+    background-image: linear-gradient(to top, rgba(124, 122, 122, 0.134),rgba(98, 97, 97, 0.193)),url('fotos/billieeilish-12032022-0001.jpg');
 }
